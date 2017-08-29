@@ -1,0 +1,175 @@
+body, html {
+    background-color: rgb(23, 17, 17) !important;
+    padding: 0px 0px;
+}
+
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+.jumbotron {
+  padding: 0;
+}
+
+.jumbotron div{
+    background-color: #232020;
+}
+
+.divider {
+  width: 600px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  clear: both;
+  background-color: #232020;
+}
+
+header h2 {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+header div {
+  border: 1px solid black;
+}
+  
+header .row,  footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+}
+  
+header p, header a {
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  padding: 0 15px;
+  margin: 0;
+  color: #9d9d9d;
+  border-left: 1px solid black;
+}
+
+footer {
+    background-color: rgb(35, 32, 32);
+    font-size: 12px;
+    padding: 15px 0;
+}
+
+footer .col-sm-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .col-sm-1 img {
+    width: 32px;
+    height: 32px;
+}
+
+#photo {
+  border-radius: 100%;
+  display: block;
+  border-radius: 50%;
+  margin:2em auto;
+  max-height: 20em;
+  max-width: 20em;
+  padding-top: 6em;
+}
+
+h5.phones{
+  display: inline;
+}
+
+p.phones{
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+
+ul.phones{
+  display: inline;
+}
+
+#mail {
+  display: block;
+  text-align: center;
+  padding: 0;
+}
+
+.who {
+  background-color: rgb(43, 49, 43);
+  background: URL('./img/code.png');
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  background-size: cover;  
+}
+
+#programming, #platforms, #tools, #skills {
+  padding-bottom: 2em;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  color: rgba(252,252, 252, 1);
+  background-color: rgba(4, 15, 15, 1);
+  width: 100%;
+  height: 100%;
+  display:none;
+  border-radius: 3%;
+}
+
+#abilities {
+  text-align: center;
+}
+
+#programming .row>.progress {
+  width: 50%;
+}
+
+.btn-categories {
+    min-width: 14em;
+    background-color: #0B1226;
+    margin: 1em 1em 1em 1em;
+}
+
+#principal p{
+  padding: 10px 3em;
+}
+
+.active{
+  background-color: black;
+  color: #fff;
+}
+
+.no-padd{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.btn-abilities{
+  min-width: 14em;
+  background-color: #0B1226;
+  margin: 1em 1em 1em 1em;
+}
+
+.btn-abilities:focus { 
+  outline-color: rgba(252, 255, 252, 1);
+}
+/*
+#nav-experience
+#nav-abilities
+#nav-interests
+*/
