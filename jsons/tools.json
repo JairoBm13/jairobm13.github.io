@@ -1,0 +1,56 @@
+[
+    {
+        "habilidad" : "Enterprices Architec",
+        "anio" : 2013, 
+        "mes" : 1,
+        "dia" : 21,
+        "mastery" : 0.3 },
+    {
+        "habilidad" : "Eclipse IDE",
+        "anio" : 2013, 
+        "mes" : 2,
+        "dia" : 21,
+        "mastery" : 0.70},
+    {
+        "habilidad" : "NetBeans IDE",
+        "anio" : 2014, 
+        "mes" : 7,
+        "dia" : 21,
+        "mastery" : 0.65},
+    {
+        "habilidad" : "Visual Studio",
+        "anio" : 2014, 
+        "mes" : 3,
+        "dia" : 21,
+        "mastery" : 0.60},
+    {
+        "habilidad" : "Excel",
+        "anio" : 2007, 
+        "mes" : 2,
+        "dia" : 21,
+        "mastery" : 0.7},
+    {
+        "habilidad" : "PowerPoint",
+        "anio" : 2006, 
+        "mes" : 1,
+        "dia" : 21,
+        "mastery" : 1},
+    {
+        "habilidad" : "Word",
+        "anio" : 2005, 
+        "mes" : 1,
+        "dia" : 21,
+        "mastery" : 1},
+    {
+        "habilidad" : "Autodesk 3DSMax",
+        "anio" : 2016, 
+        "mes" : 1,
+        "dia" : 21,
+        "mastery" : 0.70},
+    {
+        "habilidad" : "Unity3D",
+        "anio" : 2016, 
+        "mes" : 12,
+        "dia" : 21,
+        "mastery" : 0.30}
+]

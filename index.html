@@ -17,7 +17,7 @@
                 <p id="nav-experience">Experiencia</p>
                 <p id="nav-abilities">Habilidades</p>
                 <p id="nav-interests">intereses</p>
-                <p id="nav-connections">Conexiones</p>
+                <!--<p id="nav-connections">Conexiones</p> -->
             </nav>
         </div>
     </header>
@@ -35,45 +35,48 @@
             <h3>Experiencia</h3>
         </div>
     </section>
-
+    <hr class="divider">
     <section class="container">
-        <div class="">
-            <h3 id="abilities">Habilidades</h3>
-            <hr class="divider">
-            <ul class="list-inline">
-                <li>
-                    <button id="languages-btn" class="btn btn-lg btn-abilities">Lenguajes y Frameworks</button>
-                </li>
-                <li>
-                    <button id="platforms-btn" class="btn btn-lg btn-abilities">Plataformas</button>
-                </li>
-                <li>
-                    <button id="tools-btn" class="btn btn-lg btn-abilities">Herramientas</button>
-                </li>
-                <li>
-                    <button id="skills-btn" class="btn btn-lg btn-abilities">Destrezas</button>
-                </li>
-            </ul>
+        <h3 id="abilities">Habilidades</h3>
+        <div class="row button-skills">
+            <button id="languages-btn" class="btn btn-lg btn-abilities col-sm-2">Lenguajes y Frameworks</button>
+            <button id="platforms-btn" class="btn btn-lg btn-abilities col-sm-2">Plataformas</button>
+            <button id="tools-btn" class="btn btn-lg btn-abilities col-sm-2">Herramientas</button>
+            <button id="skills-btn" class="btn btn-lg btn-abilities col-sm-2">Destrezas</button>
         </div>
         <div class="content">  
             <div id="programming">
             </div>
             <div id="platforms">
-                <h4>Plataformas</h4>
-                WindowsOs (Administrador y Usuario), Android (Usuario), Linux (usuario).
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="./img/windows.png" class="imagen-hobby" alt="Windows logo">
+                    </div>
+                    <div class="col-md-3 ">
+                        <img src="img/ubuntu.png" class="imagen-hobby" alt="Ubuntu logo">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/redhat.jpg" class="imagen-hobby" alt="Redhat logo">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/android.png" class="imagen-hobby" alt="Android logo">
+                    </div>
+                </div>
             </div>
             <div id="tools">
-                <h4>Herramientas</h4>
-                Enterprices Architec, Eclipse IDE, NetBeans IDE, Visual Studio, Excel, PowerPoint, Word, SQL Developer, 3DMax, Bizagi.
             </div>
             <div id="skills">
-                <h4>Soft skills</h4>
-                Idiomas: Español – Nativo, Inglés – Medio Avanzando
+                Idiomas: Español – Nativo, Inglés – Medio Avanzando, Alem&aacute; - iniciando
+                Gran capacidad para correr
+                Puedo mover las cejas
             </div>
         </div>    
     </section>
+    <hr class="divider">
     <section class="container">
-        <div id="intersts"></div>
+        <div id="intersts">
+            <h3>Intereses</h3>
+        </div>
     </section>
     <footer class="container-fluid">
         <div class="row">

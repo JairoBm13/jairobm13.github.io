@@ -16,8 +16,14 @@ body, html {
     background-color: #232020;
 }
 
-.divider {
+.jumbotron .divider{
   width: 600px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.divider {
+  width: 80%;
   border-top: 1px solid #f8f8f8;
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
@@ -30,6 +36,7 @@ header {
   right: 0px;
   clear: both;
   background-color: #232020;
+  z-index: 1000;
 }
 
 header h2 {
@@ -60,7 +67,6 @@ header p, header a {
   padding: 10px 15px;
   margin: 0;
   color: #9d9d9d;
-  border-left: 1px solid black;
 }
 
 footer {
@@ -131,7 +137,7 @@ ul.phones{
   border-radius: 3%;
 }
 
-#abilities {
+#abilities,#experience,#intersts {
   text-align: center;
 }
 
@@ -139,10 +145,28 @@ ul.phones{
   width: 40%;
 }
 
+#platforms img{
+  width: 200px !important;
+  height: 200px !important;
+}
+
+#tools .row>.progress {
+  width: 40%;
+}
+
 .btn-categories {
     min-width: 14em;
     background-color: #0B1226;
     margin: 1em 1em 1em 1em;
+}
+
+.button-skills{
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.container{
+  padding-bottom: 1em ;
 }
 
 #principal p{
@@ -159,10 +183,11 @@ ul.phones{
   padding-right: 0px;
 }
 
+
 .btn-abilities{
   min-width: 14em;
   background-color: #0B1226;
-  margin: 1em 1em 1em 1em;
+  margin: 5px;
 }
 
 .btn-abilities:focus { 
@@ -170,7 +195,6 @@ ul.phones{
 }
 
 .item-lista{
-  padding-top: 2em;
   padding-bottom: 2em
 }
 
@@ -179,10 +203,10 @@ ul.phones{
   margin-bottom: .5em;
 }
 
-.logo {
-  width: 75px;
-  height: 50px;
+.company {
+  margin-top: 2em;
 }
+
 /*
 #nav-experience
 #nav-abilities

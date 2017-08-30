@@ -131,6 +131,37 @@ var main = function(){
         });   
     });
 
+    $.getJSON("../jsons/tools.json", function (data) {
+        data.forEach(function(ability){
+            var container = $('<div class="container">');
+            var row = $('<div class="row">');
+            container.append(row);
+            row.append($('<div class="col-md-1 pull-left"><span class="glyphicon glyphicon-asterisk"></span></div>'));
+            var span = $('<span class="label label-primary">');
+            var years = yearCalculator(ability.dia,ability.anio,ability.mes)+'';
+            console.log(years);
+            if( years > 1){
+                span.attr('id','exp'+ability.habilidad).append(years + ' años');
+            } else {
+                span.attr('id','exp'+ability.habilidad).append(years + ' año');
+            }
+            var p = $('<p class="col-sm-3">').append(ability.habilidad+' ');
+            p.append(span);
+            p.append(' de experiencia')
+            row.append(p);
+            row.append('<p class="col-sm-2">Nivel de dominio: </p>')
+            row.append($('<div class="progress">')
+                .append($('<div class="progress-bar progress-bar-striped active">')
+                    .attr('role','progressbar')
+                    .attr('aria-valuenow','45')
+                    .attr('aria-valuemin','0')
+                    .attr('aria-valuemax','100')
+                    .attr('style','width: '+ability.mastery*100+'%').text(ability.mastery*100+'%')
+            ));
+            $('#tools').append(container);
+        });   
+    });
+
     //Cargar experiencia laboral
     $.getJSON("../jsons/experience.json", function (data) {
         data.forEach(function(company){
@@ -138,8 +169,8 @@ var main = function(){
             var mainRow = $('<div class="row">');
             $('#experience').append(exp);
             exp.append(mainRow);
-                mainRow.append($('<div class="col-sm-6">').text(company.lugar));
-                mainRow.append($('<div class="col-sm-6">').append($('<img class="logo">').attr('src', company.logo)));
+                mainRow.append($('<div class="col-sm-6">').append($('<h4>').text(company.lugar)));
+                /*mainRow.append($('<div class="col-sm-6">').append($('<img class="logo">').attr('src', company.logo)));*/
             company.cargos.forEach(function(cargo){
                 var row = $('<div class="row item-lista">');
                 var rowCargo = $('<div class="row item-lista">');
