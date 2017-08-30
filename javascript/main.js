@@ -31,7 +31,7 @@ var main = function(){
     //Navegación
     $('#nav-who').on('click',function(){
         $('html,body').animate({
-            scrollTop: $("#who").offset().top
+            scrollTop: $("#who").offset().top-25
         });
         $('.activeNav').removeClass( "activeNav", 300, "swing" );
         $(this).addClass('activeNav',300,'swing');
@@ -46,14 +46,14 @@ var main = function(){
     });
     $('#nav-abilities').on('click',function(){
         $('html,body').animate({
-            scrollTop: $("#abilities").offset().top
+            scrollTop: $("#abilities").offset().top-75
         });
         $('.activeNav').removeClass( "activeNav", 300, "swing" );
         $(this).addClass('activeNav',300,'swing');  
     });
     $('#nav-interests').on('click',function(){
         $('html,body').animate({
-            scrollTop: $("#intersts").offset().top
+            scrollTop: $("#intersts").offset().top-75
         });
         $('.activeNav').removeClass( "activeNav",300, "swing" );
         $(this).addClass('activeNav',300,'swing');
