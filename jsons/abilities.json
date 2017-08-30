@@ -1,0 +1,38 @@
+[
+    {
+        "habilidad" : "java",
+        "anio" : 2013, 
+        "mes" : 1,
+        "dia" : 21,
+        "mastery" : 0.85 },
+    {
+        "habilidad" : "c#",
+        "anio" : 2015, 
+        "mes" : 2,
+        "dia" : 21,
+        "mastery" : 0.70},
+    {
+        "habilidad" : "HTML5/JavaScript",
+        "anio" : 2014, 
+        "mes" : 7,
+        "dia" : 21,
+        "mastery" : 0.65},
+    {
+        "habilidad" : "GIT",
+        "anio" : 2014, 
+        "mes" : 3,
+        "dia" : 21,
+        "mastery" : 0.90},
+    {
+        "habilidad" : "Shell",
+        "anio" : 2016, 
+        "mes" : 2,
+        "dia" : 21,
+        "mastery" : 0.60},
+    {
+        "habilidad" : "Android",
+        "anio" : 2017, 
+        "mes" : 1,
+        "dia" : 21,
+        "mastery" : 0.70}
+]

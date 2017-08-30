@@ -57,7 +57,7 @@ header p, header a {
   height: 100%;
   justify-content: center;
   text-align: center;
-  padding: 0 15px;
+  padding: 10px 15px;
   margin: 0;
   color: #9d9d9d;
   border-left: 1px solid black;
@@ -136,7 +136,7 @@ ul.phones{
 }
 
 #programming .row>.progress {
-  width: 50%;
+  width: 40%;
 }
 
 .btn-categories {
@@ -149,7 +149,7 @@ ul.phones{
   padding: 10px 3em;
 }
 
-.active{
+.activeNav {
   background-color: black;
   color: #fff;
 }
@@ -167,6 +167,21 @@ ul.phones{
 
 .btn-abilities:focus { 
   outline-color: rgba(252, 255, 252, 1);
+}
+
+.item-lista{
+  padding-top: 2em;
+  padding-bottom: 2em
+}
+
+.pull-left{
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.logo {
+  width: 75px;
+  height: 50px;
 }
 /*
 #nav-experience

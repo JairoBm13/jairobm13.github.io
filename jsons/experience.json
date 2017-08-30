@@ -1,0 +1,34 @@
+[
+    {
+        "lugar" : "Universidad de los Andes",
+        "logo" : "../img/logo-uniandes.png",
+        "cargos" : [
+            {
+                "nombre" : "Monitor de Estructuras de Datos",
+                "inicio" : "01/2015",
+                "fin" : "12/2015",
+                "description" : "Enseñe sobre estructuras de datos comunes, sus implementaciones y sus tradeoff. Ayudé a corregir la configuración de las diferentes tecnologías usadas para los proyectos. Desarrolle un software para evaluar las respuestas de funcionalidad de los proyectos."
+            },{
+                "nombre" : "Monitor de Infraestructura computacional",
+                "inicio" : "07/2015",
+                "description" : "Califico proyectos sobre concurrencia, encriptación y rendimiento sobre java. Implemento un servidor en java que sigue un protocolo del cual los estudiantes deben seguir.."
+            },{
+                "nombre" : "Monitor de Diseño y Análisis de Algoritmos",
+                "inicio" : "07/2017",
+                "description" : "Preparo monitorias sobre análisis de complejidades y especificación de algoritmos, estrategias para resolver algoritmos y programación dinamica, y teoria de grafos y estrategias para resolver problemas en ellos. Califico tareas y examenes a partir de soluciones propuestas por el profesor."
+            }
+        ]
+    },
+    {
+        "lugar" : "IBM de Colombia",
+        "logo" : "../img/logo.png",
+        "cargos" : [
+            {
+                "nombre" : "Practicante de Datamanagement",
+                "inicio" : "07/2016",
+                "fin" : "06/2017",
+                "description" : "Practicante como administrador de bases de datos Oracle y DB2. Maneje diferentes instancias instaladas en sistemas AIX, Linux, Solaris, HPUX. Desarrolle planeación de capacidad de almacenaje para las bases de datos y verificaciones de seguridad."
+            }
+        ]
+    }
+]
